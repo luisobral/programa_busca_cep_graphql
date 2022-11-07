@@ -1,0 +1,23 @@
+const { gql } = require('apollo-server')
+
+const cepSchema = gql `
+  type Cep {
+    cep: Int!
+    logradouro: String!
+    complemento: String
+    bairro: String!
+    localidade: String!
+    uf: String!
+    ibge: Int!
+    gia: Int
+    ddd: Int!
+    siafi: Int
+  }
+
+  type Query {
+    cep(cep: Int!): Cep!
+  }
+
+`
+
+module.exports = cepSchema
