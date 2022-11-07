@@ -1,9 +1,9 @@
 # programa_busca_cep_graphql
 
-# criado para fazer a busca de ceps
+criado para fazer a busca de ceps com apollo server, nodemon e graphql
+busca na base de dados do site https://viacep.com.br
 
-# busca na base de dados do site https://viacep.com.br
 
-# criado com apollo server, nodemon e graphql
+# Iniciar o projeto:
 
-# para iniciar o projeto somente dar um npm start
+npm start
