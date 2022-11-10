@@ -6,4 +6,5 @@ busca na base de dados do site https://viacep.com.br
 
 # Iniciar o projeto:
 
+npm install
 npm start
