@@ -2,7 +2,7 @@ const { gql } = require('apollo-server')
 
 const cepSchema = gql `
   type Cep {
-    cep: Int!
+    cep: String!
     logradouro: String!
     complemento: String
     bairro: String!
@@ -15,7 +15,7 @@ const cepSchema = gql `
   }
 
   type Query {
-    cep(cep: Int!): Cep!
+    cep(cep: String!): Cep!
   }
 
 `
