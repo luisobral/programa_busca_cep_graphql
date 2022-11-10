@@ -15,7 +15,7 @@ const cepSchema = gql `
   }
 
   type Query {
-    cep(cep: String!): Cep!
+    cep(cep: Int!): Cep!
   }
 
 `
